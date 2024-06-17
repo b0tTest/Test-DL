@@ -5,7 +5,7 @@ from plugins.script import Translation
 from pyrogram import enums
 import math
 
-async def progress_for_pyrogram(current, total, ud_type, message, start, bar_width=10, status=""):
+async def progress_for_pyrogram(current, total, ud_type, message, start, bar_width=20, status=""):
     now = time.time()
     diff = now - start
     percentage = current * 100 / total
@@ -17,9 +17,9 @@ async def progress_for_pyrogram(current, total, ud_type, message, start, bar_wid
     elapsed_time = TimeFormatter(milliseconds=elapsed_time)
     estimated_total_time = TimeFormatter(milliseconds=estimated_total_time)
 
-    progress = "[{0}{1}] \n".format(
-        ''.join(["█" for _ in range(math.floor(percentage / (100 / bar_width)))]),
-        ''.join(["░" for _ in range(bar_width - math.floor(percentage / (100 / bar_width)))])
+    progress = "[{0}{1}] ".format(
+        ''.join(["█" for _ in range(math.floor(percentage / (50 / bar_width)))]),
+        ''.join(["░" for _ in range(bar_width - math.floor(percentage / (50 / bar_width)))])
     )
 
     tmp = progress + Translation.PROGRESS.format(
