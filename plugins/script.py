@@ -53,10 +53,10 @@ sʜᴏᴡ ᴛʜᴜᴍʙɴᴀɪʟ
 """
 
 
-    PROGRESS = """
-🏎️ Sᴘᴇᴇᴅ : {3}/s
-✅ Dᴏɴᴇ : {1} of {2} {0} %
-⏳ Tɪᴍᴇ ʟᴇғᴛ : {4}\n
+    PROGRESS = """ PROGRESS {0} %
+🏎️ SPEED : {3}/s
+✅ DONE : {1} of {2}
+⏳ TIME LEFT : {4}\n
 """
 
 
