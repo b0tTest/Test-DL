@@ -20,6 +20,7 @@ async def progress_for_pyrogram(current, total, ud_type, message, start, status=
 
         elapsed_time = TimeFormatter(milliseconds=elapsed_time)
         estimated_total_time = TimeFormatter(milliseconds=estimated_total_time)
+        time_to_completion = TimeFormatter(milliseconds=time_to_completion)
 
         progress = "{0}{1}".format(
             ''.join(["█" for i in range(math.floor(percentage / 5))]),
@@ -31,6 +32,7 @@ async def progress_for_pyrogram(current, total, ud_type, message, start, status=
             humanbytes(current),
             humanbytes(total),
             humanbytes(speed),
+            time_to_completion if time_to_completion != '' else "0 s",
             estimated_total_time if estimated_total_time != '' else "0 s"
         )
         
