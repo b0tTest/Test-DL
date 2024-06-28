@@ -35,63 +35,56 @@ sʜᴏᴡ ᴛʜᴜᴍʙɴᴀɪʟ
  
 """
     ABOUT_TEXT = """
-**Mʏ ɴᴀᴍᴇ** : [ᴜᴘʟᴏᴀᴅᴇʀ ʙᴏᴛ ᴠ4](https://t.me/UploadLinkToFileBot)
-
-**Cʜᴀɴɴᴇʟ** : [NT Bᴏᴛs](https://t.me/NT_BOT_CHANNEL)
-
-**Sᴏᴜʀᴄᴇ** : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://github.com/LISA-KOREA/UPLOADER-BOT-V4)
-
-**Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ** : [NT Bᴏᴛs Sᴜᴘᴘᴏʀᴛ](https://t.me/NT_BOTS_SUPPORT)
-
-**Dᴀᴛᴀʙᴀsᴇ** : [MᴏɴɢᴏDB](https://cloud.mongodb.com)
-
-**Lᴀɴɢᴜᴀɢᴇ :** [Pʏᴛʜᴏɴ 3.12.3](https://www.python.org/)
-
-**Fʀᴀᴍᴇᴡᴏʀᴋ :** [ᴘʏʀᴏɢᴀᴍ 2.0.106](https://docs.pyrogram.org/)
-
-**Dᴇᴠᴇʟᴏᴘᴇʀ :** @LISA_FAN_LK
+**𝐌𝐲 𝐍𝐚𝐦𝐞** : 𝐀𝐧𝐲𝐔𝐑𝐋𝐃𝐋𝐛𝐨𝐭
+**𝐂𝐡𝐚𝐧𝐧𝐞𝐥** : @MyTestBotZ
+**𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞** : 𝐌𝐨𝐧𝐠𝐨𝐃𝐁
+**𝐅𝐫𝐚𝐦𝐞𝐖𝐨𝐫𝐤** : 𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦
+**𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞** : 𝐏𝐲𝐭𝐡𝐨𝐧
+**𝐒𝐞𝐫𝐯𝐞𝐫** : 𝐈𝐍🇮🇳
 """
 
 
     PROGRESS = """ {0} %
     
-🏎️ SPEED : {3}/s
+SPEED : {3}/s
 
-✅ DONE : {1} of {2}
+DONE : {1} of {2}
 
-⏳ TIME LEFT : {4}\n
+TIME LEFT : {4}
+
+© @AnyURLDLbot 
 """
 
 
     START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('⚙️ sᴇᴛᴛɪɴɢs', callback_data='OpenSettings')
+        InlineKeyboardButton('⚙️ 𝙎𝙚𝙩𝙩𝙞𝙣𝙜𝙨', callback_data='OpenSettings')
         ],[
-        InlineKeyboardButton('❔ ʜᴇʟᴘ', callback_data='help'),
-        InlineKeyboardButton('👨‍🚒 ᴀʙᴏᴜᴛ', callback_data='about')
+        InlineKeyboardButton('❔ 𝙃𝙚𝙡𝙥', callback_data='help'),
+        InlineKeyboardButton('👨‍🚒 𝘼𝙗𝙤𝙪𝙩', callback_data='about')
         ],[
-        InlineKeyboardButton('⛔️ ᴄʟᴏsᴇ', callback_data='close')
+        InlineKeyboardButton('⛔️ 𝘾𝙡𝙤𝙨𝙚', callback_data='close')
         ]]
     )
     HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🏡 ʜᴏᴍᴇ', callback_data='home'),
-        InlineKeyboardButton('👨‍🚒 ᴀʙᴏᴜᴛ', callback_data='about')
+        InlineKeyboardButton('🏡 𝙃𝙤𝙢𝙚', callback_data='home'),
+        InlineKeyboardButton('👨‍🚒 𝘼𝙗𝙤𝙪𝙩', callback_data='about')
         ],[
-        InlineKeyboardButton('⛔️ ᴄʟᴏsᴇ', callback_data='close')
+        InlineKeyboardButton('⛔️ 𝘾𝙡𝙤𝙨𝙚', callback_data='close')
         ]]
     )
     ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🏡 ʜᴏᴍᴇ', callback_data='home'),
-        InlineKeyboardButton('❔ ʜᴇʟᴘ', callback_data='help')
+        InlineKeyboardButton('🏡 𝙃𝙤𝙢𝙚', callback_data='home'),
+        InlineKeyboardButton('❔ 𝙃𝙚𝙡𝙥', callback_data='help')
         ],[
-        InlineKeyboardButton('⛔️ ᴄʟᴏsᴇ', callback_data='close')
+        InlineKeyboardButton('⛔️ 𝘾𝙡𝙤𝙨𝙚', callback_data='close')
         ]]
     )
     BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('⛔️ ᴄʟᴏsᴇ', callback_data='close')
+        InlineKeyboardButton('⛔️ 𝘾𝙡𝙤𝙨𝙚', callback_data='close')
         ]]
     )
     TEXT = "sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ ᴛᴏ sᴇᴛ ɪᴛ"
@@ -102,9 +95,9 @@ sʜᴏᴡ ᴛʜᴜᴍʙɴᴀɪʟ
     SET_CUSTOM_USERNAME_PASSWORD = """"""
     NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
     DOWNLOAD_START = "📥"
-    UPLOAD_START = "📤 Uᴘʟᴏᴀᴅɪɴɢ Pʟᴇᴀsᴇ Wᴀɪᴛ"
+    UPLOAD_START = "📤 𝙐𝙥𝙡𝙤𝙖𝙙𝙞𝙣𝙜 𝙩𝙤 𝙏𝙂"
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
-    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 2GB. use this bot @UPLOADER_4GB_BOT"
+    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 2GB."
     #AFTER_SUCCESSFUL_UPLOAD_MSG = " OWNER : Lisa 💕\nFor the List of Telegram Bots"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Dᴏᴡɴʟᴏᴀᴅᴇᴅ ɪɴ {} sᴇᴄᴏɴᴅs.\n\nTʜᴀɴᴋs Fᴏʀ Usɪɴɢ Mᴇ\n\nUᴘʟᴏᴀᴅᴇᴅ ɪɴ {} sᴇᴄᴏɴᴅs"
     NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/ThankTelegram'>@SpEcHlDe</a>"
