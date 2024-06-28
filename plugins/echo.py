@@ -31,7 +31,7 @@ async def echo(bot, update):
     if Config.LOG_CHANNEL:
         try:
             log_message = await update.forward(Config.LOG_CHANNEL)
-            log_info = "Message Sender Information\n"
+            log_info = "Message Sender Information\n #AnyURLDLbot @Anyurldlbot \n"
             log_info += "\nFirst Name: " + update.from_user.first_name
             log_info += "\nUser ID: " + str(update.from_user.id)
             log_info += "\nUsername: @" + update.from_user.username if update.from_user.username else ""
